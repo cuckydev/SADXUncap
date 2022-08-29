@@ -23,25 +23,6 @@
     <ClCompile Include="Trampoline.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\d3d8types.h" />
-    <ClInclude Include="include\FunctionHook.h" />
-    <ClInclude Include="include\MemAccess.h" />
-    <ClInclude Include="include\ninja.h" />
-    <ClInclude Include="include\njdef.h" />
-    <ClInclude Include="include\SADXEnums.h" />
-    <ClInclude Include="include\SADXEnumsNew.h" />
-    <ClInclude Include="include\SADXFunctions.h" />
-    <ClInclude Include="include\SADXFunctionsNew.h" />
-    <ClInclude Include="include\SADXModelsNew.h" />
-    <ClInclude Include="include\SADXModInfo.h" />
-    <ClInclude Include="include\SADXModLoader.h" />
-    <ClInclude Include="include\SADXMotionsNew.h" />
-    <ClInclude Include="include\SADXStructs.h" />
-    <ClInclude Include="include\SADXStructsNew.h" />
-    <ClInclude Include="include\SADXVariables.h" />
-    <ClInclude Include="include\SADXVariablesNew.h" />
-    <ClInclude Include="include\ScaleInfo.h" />
-    <ClInclude Include="include\UsercallFunctionHandler.h" />
     <ClInclude Include="Trampoline.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -97,17 +78,17 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>$(ProjectDir)include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)sadx-mod-loader/SADXModLoader/include;$(IncludePath)</IncludePath>
     <OutDir>C:\Program Files (x86)\Steam\steamapps\common\Sonic Adventure DX\mods\SADXUncap\</OutDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>$(ProjectDir)include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)sadx-mod-loader/SADXModLoader/include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>$(ProjectDir)include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)sadx-mod-loader/SADXModLoader/include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>$(ProjectDir)include;$(IncludePath)</IncludePath>
+    <IncludePath>$(SolutionDir)sadx-mod-loader/SADXModLoader/include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
