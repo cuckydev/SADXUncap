@@ -50,7 +50,7 @@ struct TaskWk_State
 
 struct TaskWk
 {
-    int bad = 1;
+    int bad = 2;
     TaskWk_State state[2];
 };
 
